@@ -18,17 +18,17 @@ namespace ApiPocketEng.Controllers
             String result = "";
 
             switch(type){
-                case "Area": result = Area(unity1, unity2, value); break;
-                case "Angulo": result = Angulo(unity1, unity2, value); break;
-                case "Comprimento": break;
-                case "Energia": break;
-                case "Pressao": break;
-                case "Potencia": break;
-                case "Temperatura": break;
-                case "Tempo": break;
-                case "Velocidade": break;
-                case "Volume": break;
-                default: return "Inválido";
+                case "area": result = Area(unity1, unity2, value); break;
+                case "angulo": result = Angulo(unity1, unity2, value); break;
+                case "comprimento": break;
+                case "energia": break;
+                case "pressao": break;
+                case "potencia": break;
+                case "temperatura": break;
+                case "tempo": break;
+                case "velocidade": break;
+                case "volume": break;
+                default: return "Inválido!!!";
             }            
 
             return result;
@@ -37,9 +37,9 @@ namespace ApiPocketEng.Controllers
         private string Area(string unity1, string unity2, string value){
             double valueDouble = Convert.ToDouble(value);
             int constant = 1000000;
-            if(unity1 == "m" && unity2 == "mm"){
+            if(unity1 == "m2" && unity2 == "mm2"){
                 return (valueDouble * constant).ToString("");
-            }else if(unity1 == "mm" && unity2 == "m"){
+            }else if(unity1 == "mm2" && unity2 == "m2"){
                 return (valueDouble / constant).ToString("");
             }else if(unity1 == unity2){
                 return value;        
