@@ -21,10 +21,10 @@ Acesso Ex.: (url)/api/Conversions/TypeConversion/Unity1/Unity2/Value
  - Área (Metros Quadrados[m2], Milímetros Quadrados[mm2]);
  - Ángulo (Graus[graus], Radianos[rad]);
  - Comprimento (Metros[m], Milímetros[mm], Centímetros[cm], Polegadas[in]);
- - Energia (Watts/Hora[W/h], Joule[J]), Btu;
- - Pressao (Bar, Atm, Pascal[Pa], PSI);
- - Potencia (Watts[W], Horse-power[hp]);
- - Temperatura (Celsius[°C],Fahrenheit[°F], Kelvin[K]);
+ - Energia (Watts/Hora[wh], Joule[J]), Btu;
+ - Pressao (Bar[bar], Atm[atm], Pascal[pa], PSI[psi]);
+ - Potencia (Watts[w], Horse-power[hp]);
+ - Temperatura (Celsius[c],Fahrenheit[c], Kelvin[k]);
  - Tempo (Hora[h], Minutos[min], Segundos[s]);
- - Velocidade (Metros/Segundo[m/s], Quilometros/Hora[km/h]);
- - Volume (Litros[L], Metros Cúbicas[m³], Polegadas Cúbicas[in³]).
+ - Velocidade (Metros/Segundo[ms], Quilometros/Hora[kmh]);
+ - Volume (Litros[l], Metros Cúbicas[m3], Polegadas Cúbicas[in3]).
